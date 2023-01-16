@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@practice/*": ["src/*"],
+        },
+    },
+    "exclude": ["node_modules/"]
+}

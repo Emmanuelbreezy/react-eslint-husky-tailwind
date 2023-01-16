@@ -1,0 +1,16 @@
+{
+    "plugins": [
+      ["module-resolver", {
+        "root": ["./"],
+        "alias": {
+          "@practice/assets": "./src/assets",
+          "@practice/components": "./src/components",
+          "@practice/constants": "./src/constants",
+          "@practice/hoc" : "./src/hoc",
+          "@practice/pages" : "./src/pages",
+          "@practice/routes" : "./src/routes",
+          "@practice/*": ["src/*"]
+        }
+      }]
+    ]
+  }
